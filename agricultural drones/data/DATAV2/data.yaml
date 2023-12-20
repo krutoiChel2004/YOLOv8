@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../train/images
+test: ../train/images
+
+nc: 4
+names: ['combine harvester', 'cow', 'tractor', 'trailer']
+
+roboflow:
+  workspace: drone-hikxp
+  project: agro-drjne
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/drone-hikxp/agro-drjne/dataset/3
